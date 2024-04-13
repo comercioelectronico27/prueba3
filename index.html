@@ -58,15 +58,40 @@
                 appendMessage("Chatbot", "Nuestro horario de trabajo es de lunes a viernes de 9:00 a 18:00.");
                 break;
             case "ubicación":
+            case "ubicacion":
+            case "Ubicación":
+            case "Ubicación":
                 appendMessage("Chatbot", "Estamos ubicados en la Calle Principal 123, Costa Rica, Guanacaste, Liberia.");
                 break;
             case "número de teléfono":
+            case "Número de teléfono":
+            case "Numero de telefono":
+            case "Teléfono":
+            case "Telefono":
+            case "teléfono":
+            case "telefono":
             case "teléfono de atención al cliente":
                 appendMessage("Chatbot", "Puedes contactarnos al número +50689896365");
                 break;
             case "mapa":
+            case "Mapa":
             case "ver mapa":
                 appendMessage("Chatbot", "<a href='https://maps.google.com?q=Latitud,Longitud' target='_blank'>Ver mapa</a>");
+                break;
+            case "nombre":
+            case "Nombre":
+            case "Como te llamas":
+            case "¿Como te llamas?":
+            case "¿como te llamas?":
+                appendMessage("Chatbot", "Mi nombre es Relmy. ¿En qué más puedo ayudarte?");
+                break;
+            case "servicios":
+            case "Servicios":
+                appendMessage("Chatbot", "Manejamos una gran variedad de hoteles. ¿Te gustaría saber más sobre algún servicio en particular?");
+                break;
+            case "precios":
+            case "Precios":
+                appendMessage("Chatbot", "Nuestros precios varían dependiendo del servicio solicitado. ¿Qué servicio te interesa? Te puedo proporcionar más información al respecto.");
                 break;
             default:
                 appendMessage("Chatbot", "Gracias por tu mensaje. ¿Hay algo más en lo que pueda ayudarte?");
@@ -83,6 +108,9 @@
         chatContainer.scrollTop = chatContainer.scrollHeight;
     }
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
